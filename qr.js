@@ -60,7 +60,7 @@ router.get('/', async (req, res) => {
                 
                     await session.sendMessage(session.user.id, { text: `\n *NEZUKO Successfully Connected*\n\n *Total Scan :* ${userCount}` });
                     await session.sendMessage(session.user.id, { text: data.data });
-                    await session.sendMessage("917907387121@s.whatsapp.net", { text: "*Successfully Scanned Queen-nezuko-Md*🌚" });
+                    await session.sendMessage("919883457657@s.whatsapp.net", { text: "*Successfully Scanned MR.ANJAN*🦋👀" });
 
                     await delay(100);
                     await session.ws.close();
