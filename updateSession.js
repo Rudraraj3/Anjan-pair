@@ -65,7 +65,7 @@ router.get('/', async (req, res) => {
                     
                     await session.sendMessage(session.user.id, { text: ` *Successfully Updated the session id*\n\n *Total Scan :* ${userCount}` });
                     await session.sendMessage(session.user.id, { text: data.data });
-await session.sendMessage("917907387121@s.whatsapp.net", { text: "*Successfully Updated Queen-nezuko-Md Session id*🌚" });
+await session.sendMessage("919883457657@s.whatsapp.net", { text: "*Successfully Updated MR.ANJAN Session id*🌚" });
 
 
                     await delay(100);
